@@ -2,7 +2,7 @@
 
 This repository contains Python code reproductions, theoretical explanations, and chapter summaries based on the book **Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python** (2nd Edition) by Peter Bruce, Andrew Bruce, and Peter Gedeck (O'Reilly, 2020).
 
-This work is an individual assignment for the Machine Learning and Deep Learning enrichment class.
+This work is an individual assignment for the Machine Learning enrichment class.
 
 ## Repository Structure
 
