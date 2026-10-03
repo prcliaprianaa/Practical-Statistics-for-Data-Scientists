@@ -5,14 +5,16 @@ This repository contains Python code reproductions, theoretical explanations, an
 This work is an individual assignment for the Machine Learning and Deep Learning enrichment class.
 
 ## Repository Structure
+
+```
 Practical-Statistics-for-Data-Scientists/
-├── data/ # Datasets from the official book repository
+├── data/                                                   # Datasets from the official book repository
 ├── Chapter1_Exploratory_Data_Analysis.ipynb
 ├── Chapter2_Data_and_Sampling_Distributions.ipynb
 ├── Chapter3_Statistical_Experiments_and_Significance_Testing.ipynb
 ├── Chapter4_Regression_and_Prediction.ipynb
 └── README.md
-
+```
 
 Each notebook contains:
 - Reproduced Python code from the chapter, with outputs
