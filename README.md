@@ -13,6 +13,8 @@ Practical-Statistics-for-Data-Scientists/
 ├── Chapter2_Data_and_Sampling_Distributions.ipynb
 ├── Chapter3_Statistical_Experiments_and_Significance_Testing.ipynb
 ├── Chapter4_Regression_and_Prediction.ipynb
+├── Chapter5_Classification.ipynb
+├── Chapter6_Statistical_Machine_Learning.ipynb
 └── README.md
 ```
 
@@ -37,13 +39,11 @@ Covers how to design experiments and decide whether an observed effect is real o
 Covers linear regression as a tool for prediction and explanation. Topics include simple and multiple linear regression, model assessment (RMSE, R-squared), cross-validation, stepwise model selection with AIC, weighted regression, confidence and prediction intervals, factor variables and dummy coding, correlated predictors, multicollinearity, confounding variables, interactions, regression diagnostics (outliers, influential values, heteroskedasticity, partial residual plots), and nonlinear extensions such as polynomial regression, splines, and generalized additive models (GAM).
 
 ### Chapter 5: Classification
-*Coming soon.*
+Covers methods for predicting which category a record belongs to. Topics include naive Bayes, linear discriminant analysis, and logistic regression (log odds, odds ratios, generalized linear models, maximum likelihood estimation, and splines). It also covers how to evaluate classifiers using the confusion matrix, precision, recall, specificity, ROC curves, AUC, and lift, strategies for imbalanced data such as undersampling, oversampling, weighting, SMOTE, ADASYN, and cost-based classification, and a comparison of the decision boundaries of different classifiers.
 
 ### Chapter 6: Statistical Machine Learning
-*Coming soon.*
+Covers flexible, data-driven prediction methods. Topics include K-Nearest Neighbors (distance metrics, one hot encoding, standardization, choosing K, and KNN as a feature engine), decision trees (recursive partitioning, Gini and entropy impurity, and controlling tree growth), bagging and random forests (out-of-bag error and variable importance), and boosting with XGBoost (regularization, hyperparameters, and cross-validation).
 
-### Chapter 7: Unsupervised Learning
-*Coming soon.*
 
 ## How to Run
 
@@ -51,7 +51,7 @@ Covers linear regression as a tool for prediction and explanation. Topics includ
 git clone https://github.com/prcliaprianaa/Practical-Statistics-for-Data-Scientists.git
 
 2. Install the required libraries:
-pip install pandas numpy scipy matplotlib seaborn statsmodels scikit-learn wquantiles dmba pygam jupyter
+pip install pandas numpy scipy matplotlib seaborn statsmodels scikit-learn wquantiles dmba pygam jupyter imbalanced-learn xgboost
 
 3. Open any notebook in Jupyter or VS Code and run all cells. The datasets are already included in the `data/` folder.
 
